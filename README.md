@@ -1,5 +1,7 @@
 # twilight-shell/popouts
 
+[![ci](https://github.com/twilight-shell/popouts/actions/workflows/ci.yml/badge.svg)](https://github.com/twilight-shell/popouts/actions/workflows/ci.yml)
+
 Cards that drop from the top of the screen under the
 [bar](https://github.com/twilight-shell/bar): a month **calendar** with the moon
 phase, and a **sound mixer** with the output and input devices and the volume of
@@ -51,6 +53,10 @@ Bar {
 | `toggle(name)`, `close()` | Open a card, or close the one that is open. |
 | `outputName` | The output to open on. |
 | `push` | Screen y of the bottom of a card that hangs over the right-hand column where notifications stack, `0` when none does. Notifications move below it. |
+
+## Contributing
+
+Contributions are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md). Agents and the like: [AGENTS.md](AGENTS.md).
 
 ## License
 
